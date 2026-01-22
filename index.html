@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushafir Cafe</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #faf7f2;
+            color: #333;
+        }
+        header {
+            background-color: #3e2723;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        nav {
+            background-color: #5d4037;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            padding: 60px 40px;
+            text-align: center;
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 20px;
+        }
+        .section {
+            padding: 50px 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #3e2723;
+        }
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .menu-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #3e2723;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mushafir Cafe</h1>
+    <p>A place for travellers, stories, and soulful coffee</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <h1>Welcome to Mushafir Cafe</h1>
+    <p>Where every traveller finds a pause</p>
+</section>
+
+<section class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+        Mushafir Cafe is inspired by journeys, conversations, and the love for coffee. We welcome
+        travellers, thinkers, students, and dreamers to sit back, relax, and enjoy a warm cup
+        brewed with care.
+    </p>
+</section>
+
+<section class="section" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu">
+        <div class="menu-item">
+            <h3>Classic Coffee</h3>
+            <p>Freshly brewed coffee with rich aroma</p>
+        </div>
+        <div class="menu-item">
+            <h3>Masala Chai</h3>
+            <p>Traditional Indian tea with spices</p>
+        </div>
+        <div class="menu-item">
+            <h3>Cold Coffee</h3>
+            <p>Chilled coffee for warm afternoons</p>
+        </div>
+        <div class="menu-item">
+            <h3>Snacks</h3>
+            <p>Light snacks to go with your drink</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: mushafircafe@gmail.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>Location: India</p>
+</section>
+
+<footer>
+    <p>© 2026 Mushafir Cafe. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
